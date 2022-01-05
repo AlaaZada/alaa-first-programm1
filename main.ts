@@ -1,6 +1,5 @@
 let xdist = 0
 basic.forever(function () {
-    music.playMelody("C5 B B - - - - - ", 120)
     basic.showIcon(IconNames.Yes)
     xdist = Rover.Ultrasonic()
     if (xdist >= 25) {
