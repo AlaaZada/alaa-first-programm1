@@ -5,6 +5,6 @@ basic.forever(function () {
     if (xdist >= 25) {
         Rover.Move(100)
     } else {
-        Rover.MotorRunDual(-107, 152)
+        Rover.MotorRunDual(-50, 100)
     }
 })
